@@ -1,0 +1,17 @@
+.lien{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  gap: 5%;
+}
+
+.nav{
+    color: black;
+    text-decoration: none;
+}
+
+.search-button{
+    background-color:#0065fc;
+}
+
+
