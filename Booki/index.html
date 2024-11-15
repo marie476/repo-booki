@@ -38,26 +38,29 @@
   <body>
     <div class="main-container">
       <header>
-        <img src="images/logo/Booki@3x.png" alt="logo" />
-        <a href="#hebergements">Hébergements</a>
-        <a href="#activites">Activités</a>
+        <div class="lien">
+        <img src="images/logo/Booki@3x.png" alt="logo" class="logo" />
+        <div class="nav">
+          <a class="a" href="#hebergements">Hébergements</a>
+          <a class="a"  href="#activites">Activités</a>
+        </div>
+        </div>
       </header>
       <main>
         <div class="position">
           <h1>Trouver votre Hébergement pour des vacances de rêve</h1>
           <p>En plein centre-ville ou en pleine nature</p>
+
           <div class="barre-recherche">
-            <div id="location">
-              <span id="location-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <input
-                  type="text"
-                  placeholder="Rechercher..."
-                  class="search-input"
-                />
-                <button class="search-button">Rechercher</button>
-              </span>
+            <div class="location-item">
+              <i class="fas fa-map-marker-alt"></i>
             </div>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Rechercher..."
+            />
+            <button class="search-button">Rechercher</button>
           </div>
         </div>
 
