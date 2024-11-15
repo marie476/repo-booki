@@ -87,44 +87,9 @@ justify-content:space-between;
   border: none;
 }
 
-
-.bouton-economique{
+.bouton-filtres{
   display: flex;
-  align-items:center;
-  border: 0.100em solid #dcdcdc;
-  margin:1em;
-  border-radius: 1.5em; 
-  padding: 0.30em 0.150em;  
-  width: 7em;
-  color: #0065fc;
-}
-
-
-.bouton-familial{
-  display: flex;
-  align-items:center;
-  border: 0.100em solid #dcdcdc;
-  margin:1em;
-  border-radius: 1.5em; 
-  padding: 0.30em 0.150em;  
-  width: 5em;
-  color: #0065fc;
-}
-
-.bouton-romantique{
-  display: flex;
-  align-items:center;
-  border: 0.100em solid #dcdcdc;
-  margin:1em;
-  border-radius: 1.5em; 
-  padding: 0.30em 0.150em;  
-  width: 7em;
-  color: #0065fc;
-}
-
-.bouton-pepites{
-  display: flex;
-  align-items:center;
+  justify-content:center;
   border: 0.100em solid #dcdcdc;
   margin:1em;
   border-radius: 1.5em; 
