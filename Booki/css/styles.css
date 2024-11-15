@@ -3,6 +3,7 @@
 flex-direction: row;
 justify-content:space-between;
 }
+
 .logo{
   height: 30px;
  
@@ -42,7 +43,13 @@ justify-content:space-between;
   align-items: center;
   margin-right: 0.5em;
   border-radius:  0.5em 0em 0em 0.5em ;
+  background-color: #d3d3d3;
+  height: 1.5em;
+  width: 1.5em;
+  padding: 0.1em;
 }
+
+
 
 .search-input{
   border: none;
@@ -68,20 +75,60 @@ justify-content:space-between;
   color: #fff;
 }
 
-
-
-
-
-
-
-
 .filtre{
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.bouton-economique{
+
+.button{
+  background: transparent;
   border: none;
-  
+}
+
+
+.bouton-economique{
+  display: flex;
+  align-items:center;
+  border: 0.100em solid #dcdcdc;
+  margin:1em;
+  border-radius: 1.5em; 
+  padding: 0.30em 0.150em;  
+  width: 7em;
+  color: #0065fc;
+}
+
+
+.bouton-familial{
+  display: flex;
+  align-items:center;
+  border: 0.100em solid #dcdcdc;
+  margin:1em;
+  border-radius: 1.5em; 
+  padding: 0.30em 0.150em;  
+  width: 5em;
+  color: #0065fc;
+}
+
+.bouton-romantique{
+  display: flex;
+  align-items:center;
+  border: 0.100em solid #dcdcdc;
+  margin:1em;
+  border-radius: 1.5em; 
+  padding: 0.30em 0.150em;  
+  width: 7em;
+  color: #0065fc;
+}
+
+.bouton-pepites{
+  display: flex;
+  align-items:center;
+  border: 0.100em solid #dcdcdc;
+  margin:1em;
+  border-radius: 1.5em; 
+  padding: 0.30em 0.150em;  
+  width: 7em;
+  color: #0065fc;
 }
