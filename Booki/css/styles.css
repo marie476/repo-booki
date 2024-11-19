@@ -116,4 +116,91 @@ justify-content:space-between;
 
 .hebergements-a-marseille{
   background-color: #F2F2F2;
+  padding: 2em;
+  border-radius: 1em;
+  overflow: hidden;
 }
+
+.hebergements-cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.populaires-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1em;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.populaires-cards a {
+  position: relative;}
+
+.hebergements-cards h1{
+  margin: 0;
+  text-align: left;
+  font-size: 2em;
+}
+
+.h-card{
+  max-width: 350px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 1em;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.h-card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.hcard-content{
+  padding: 1em;
+}
+
+.card-title{
+  font-size: 1.25em;
+  margin: 0.5em 0 0.25em;
+  color:#333;
+}
+
+.card-subtitle{
+  font-size: 1em;
+  margin: 0.25em 0;
+  color: #666;
+}
+
+.hcard-rating{
+  margin-top: 0.5em;
+  color: #ffcc00;
+}
+
+.hebergements-cards a {
+  text-decoration: none;
+}
+
+
+.afficher-plus{
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
+
+
