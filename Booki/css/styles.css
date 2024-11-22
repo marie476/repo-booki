@@ -119,6 +119,8 @@ justify-content:space-between;
   padding: 2em;
   border-radius: 1em;
   overflow: hidden;
+  max-width: 50em;
+  margin-right: 3em;
 }
 
 .hebergements-cards{
@@ -202,5 +204,14 @@ justify-content:space-between;
   bottom: 1em;
   left: 1em;
 }
+
+
+
+
+
+
+
+
+
 
 
