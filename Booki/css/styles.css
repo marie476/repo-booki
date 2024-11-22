@@ -158,7 +158,6 @@ justify-content:space-between;
   margin: 0 auto;
   background-color: white;
   border-radius: 1em;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   text-align: start;
@@ -187,7 +186,7 @@ justify-content:space-between;
   color: #666;
 }
 
-.hcard-rating{
+.card-rating{
   margin-top: 0.5em;
   color: #ffcc00;
 }
@@ -205,13 +204,39 @@ justify-content:space-between;
   left: 1em;
 }
 
+.hotel{
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+}
 
+.hebergements-and-populaires{
+  background-color: #F2F2F2;
+  padding: 3em;
+  border-radius: 1em;
+  overflow: hidden;
+  max-width: 100em;
+  margin-right: 1em;
+  padding: 5em;
+}
+.card img{
+  width: 100%;
+  height: auto;
+  max-width: 25em;
+}
+.card { 
+  max-width: 2em;
+  margin:  auto;
+  background-color: white;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-
-
-
-
-
-
-
-
+.populaires-cards{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  max-width: 1200px;
+}
