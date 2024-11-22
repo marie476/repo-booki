@@ -121,8 +121,14 @@ justify-content:space-between;
   overflow: hidden;
   max-width: 50em;
   margin-right: 3em;
+
 }
 
+.hebergements-a-marseille a{
+ text-decoration: none;
+ color: black;
+ 
+}
 .hebergements-cards{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -210,23 +216,29 @@ justify-content:space-between;
  align-items: flex-start;
 }
 
+
 .hebergements-and-populaires{
   background-color: #F2F2F2;
-  padding: 3em;
+  padding: 2em;
   border-radius: 1em;
   overflow: hidden;
-  max-width: 100em;
+  max-width: 75em;
   margin-right: 1em;
-  padding: 5em;
 }
-.card img{
+
+.populaires-cards{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  margin: auto;
+  max-width: 120px;
   width: 100%;
-  height: auto;
-  max-width: 25em;
+  box-sizing: border-box;
 }
-.card { 
-  max-width: 2em;
-  margin:  auto;
+
+.card{
+  max-width:100%;
+  margin-top: auto;
   background-color: white;
   border-radius: 1em;
   display: flex;
@@ -234,9 +246,9 @@ justify-content:space-between;
   align-items: center;
 }
 
-.populaires-cards{
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: auto;
-  max-width: 1200px;
+.card img{
+  width: 100%;
+  min-height: auto;
+  max-height: 200px;
+  object-fit: cover;
 }
