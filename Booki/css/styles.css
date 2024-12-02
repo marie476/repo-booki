@@ -152,7 +152,7 @@ justify-content:space-between;
 .populaires-cards{
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 1rem;
   margin:auto;
   max-width: 1200px;
   width: 100%;
@@ -220,12 +220,13 @@ justify-content:space-between;
 .hotel{
   display: flex;
   gap: 2rem;
+  align-items: stretch;
 }
 
 .hebergements-and-populaires{
   flex: 1;
   background-color: #F2F2F2;
-  padding-right: 2rem;
+  padding: 1rem;
   border-radius: 1rem;
   height: 100%;
 }
@@ -234,12 +235,21 @@ justify-content:space-between;
   background-color: white;
   border-radius: 1em;
   overflow: hidden;
-  margin: 3rem;
+ /* margin: 3rem;*/
+
+
+
+
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
 }
 
-.card img{
+.hebergements-and-populaires img{
+  height: 150px;
   width: 100%;
   object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 .hebergements-and-populaires a {
